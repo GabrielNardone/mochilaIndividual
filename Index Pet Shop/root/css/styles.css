@@ -1,0 +1,297 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+
+/*HEADER*/
+
+.ofertas {
+    padding-top: 9px;
+    padding-left: 1%;
+    font-size: 20px;
+}
+
+.ofertasHeader {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    padding-top: 1px;
+}
+
+.ofertasHeader1 {
+    position: relative;
+    left: 2100px;
+    bottom: 30px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.headerLogo {
+    background-color: #F0A83E;
+}
+
+.headerLista {
+    list-style-type: none;
+    color: #FFFFFF;
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.header-li {
+    position: relative;
+    display: inline;
+    margin: 15px;
+    right: 100px;
+    bottom: 25px;
+}
+
+.patita-nav-header {
+    width: 20px;
+    height: 20px;
+}
+
+.logo-header {
+    position: relative;
+    top: 25px;
+    left: 70px;
+    width: 10%;
+}
+
+/*MAIN BACKGROUND*/
+
+.main {
+    margin-top: -22px;
+}
+
+.backgroundIMG {
+    background-image: url(../bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.backgroundText {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 60px;
+    color: #3C2313;
+    font-weight: 600;
+    position: relative;
+    left: 65%;
+    top: 30%;
+    padding: 0.5%;
+
+}
+
+.backgroundText1 {
+    font-size: 30px;
+    color: #3C2313;
+    font-weight: 600;
+    position: relative;
+    left: 42.5%;
+    top: 42%;
+}
+
+.background-input {
+    background-color: #F0A83E;
+    border-radius: 10px;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 600;
+    position: relative;
+    left: 29%;
+    top: 58%;
+    padding: 0.7%;
+}
+
+/*MAIN NAV*/
+
+.productos {
+    background-color: #E5E5E5;
+    height: 350px;
+}
+
+.patitaMain {
+    position: relative;
+    left: 48%;
+    top: 10%;
+    width: 5%;
+}
+
+.h1-main {
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 60px;
+    position: relative;
+    left: 38%;
+    bottom: 25px;
+}
+
+.listaMain {
+    display: inline;
+    position: relative;
+    left: 38.5%;
+    bottom: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+/*MAIN CARDS*/
+
+.section-cards {
+    background-color: #E5E5E5;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.cards {
+    background-color: #FBFAF6;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: -1px 7px 11px 0px rgba(176, 174, 176, 1);
+    -moz-box-shadow: -1px 7px 11px 0px rgba(176, 174, 176, 1);
+    box-shadow: -1px 7px 11px 0px rgba(176, 174, 176, 1);
+}
+
+.descripción-cards {
+    color: #3C2313;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.precio {
+    color: #F0A83E;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*MAIN CONTACTO*/
+
+.section-contacto {
+    background-color: #E5E5E5;
+    height: 300px;
+    position: relative;
+    bottom: 43px;
+}
+
+.h2-main {
+    color: #3C2313;
+    font-size: 50px;
+    font-weight: 700;
+    font-variant: small-caps;
+    position: relative;
+    left: 44%;
+    bottom: 50px;
+}
+
+
+
+
+
+/*FOOTER*/
+
+.footer {
+    margin-top: -42px;
+}
+
+.footer-article1 {
+    background-color: #F0A83E;
+    height: 80px;
+}
+
+.footer-msj {width: 60px;
+    position: relative;
+    top: 25%;
+    left: 1.5%;
+
+}
+
+.suscribir {font-size: 35px;
+    color: #FFFFFF;
+    font-weight: 700;
+    position: relative;
+    top: 20%;
+    left: 2%;
+}
+
+
+.footer-correo1 {
+    position: relative;
+    left: 45%;
+    top: 20%;
+    color: #3C2313;
+    font-size: 25px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0.3%;
+}
+
+.footer-correo2 {
+    position: relative;
+    left: 45%;
+    top: 20%;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 10px;
+    background-color: #3C2313;
+    border-radius: 10px;
+    padding: 0.3%;
+}
+
+.footer-article2 {background-color: #3C2313;
+    height: 350px;
+}
+
+.logo-footer { width: 15%;
+    position: relative;
+    left: 75%;
+    top: 30%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.derechos {background-color: #222222;
+    color: #E5E5E5;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+.derechos-texto {position: relative;
+    top: 18%;
+    left: 42.5%;
+
+}
