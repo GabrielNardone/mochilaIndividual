@@ -3,19 +3,30 @@ body {
     padding: 0;
     box-sizing: border-box;
     height: 250vh;
+    background-color: #E5E5E5
 }
 
 /*-----------HEADER----------*/
 
-.header-nav {
+.header-ofertas {
+    display: none;
+}
+
+.header-burger-nav {
     background-color: #F0A83E;
     display: flex;
     justify-content: space-between;
-    padding: 2% 8%;
+    align-items: center;
+    padding: 2% 7%;
+    height: 3vh;
 }
 
-.header-nav img {
+.header-burger-nav img {
     height: 3vh;
+}
+
+.header-nav {
+    display: none;
 }
 
 /*-----------MAIN FONDO----------*/
@@ -30,7 +41,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     padding-right: 3%;
-    height: 50vh;
+    height: 60vh;
 }
 
 
@@ -65,7 +76,7 @@ body {
 /*-----------MAIN LOGO-NAV----------*/
 
 .main-logo-patita {
-    width: 15%;
+    width: 100px;
 }
 
 .main-section-nav {
@@ -100,7 +111,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 25px;
-    margin-right: 3%;
+    margin-right: 45px;
 }
 
 /*-----------MAIN SECTION ARTICLES----------*/
@@ -138,6 +149,7 @@ h1 {
 
 /*-----------MAIN SECTION CONTÁCTANOS----------*/
 
+
 h3 {
     text-align: center;
     font-family: 'Roboto';
@@ -147,10 +159,16 @@ h3 {
     margin-bottom: 0;
 }
 
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .form-contacto ul {
     list-style-type: none;
     width: 400px;
-    margin-right: 7%;
+    margin-right: 40px;
     margin-top: 0;
 }
 
@@ -165,10 +183,9 @@ h3 {
     font-weight: 400;
 }
 
-.form-contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contáctanos-input {
+    border: none;
+    background-color: #3C2313;
 }
 
 .form-button {
@@ -203,52 +220,64 @@ h3 {
 
 /*-----------FOOTER SUSCRIPCIÓN----------*/
 
+
+.footer-section-suscripción {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #F0A83E;
+    height: 18vh;
+}
+
 .footer-suscripción {
     display: flex;
-    justify-content: space-between;
-    background-color: #F0A83E;
+    justify-content: center;
+    gap: 30px;
     align-items: center;
     padding: 0 10% 0 2%;
     font-family: 'Roboto';
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.5rem;
     color: #FFFFFF;
-    margin-bottom: 0;
+
 }
 
 .footer-suscripción-mail {
     display: flex;
-    justify-content: space-between;
-    background-color: #F0A83E;
+    justify-content: center;
     align-items: center;
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #666666;
-    margin-top: 0;
-    height: 8vh;
-    margin-bottom: 0;
+    gap: 10px;
 }
 
 .footer-suscripción-mail span {
     display: flex;
     align-items: center;
-    margin-left: 3%;
+    margin-left: 2%;
     background-color: #FFFFFF;
-    border-radius: 30px;
+    border-radius: 15px;
     height: 40px;
     width: 340px;
 }
 
+.footer-input {
+    border: none;
+    background-color: #FFFFFF;
+}
+
 .footer-suscripción-mail button {
-    background-color: #8A8787;
+    background-color: #3C2313;
     font-family: 'Roboto';
     font-size: 1.2rem;
     color: #FFFFFF;
     width: 130px;
-    height: 40px;
+    height: 35px;
     border-radius: 30px;
-    border: #8A8787 solid 2px;
+    border: #3C2313 solid 2px;
+    margin-right: 2%;
 }
 
 /*-----------FOOTER DATOS----------*/
@@ -303,4 +332,128 @@ h3 {
     color: #FFFFFF;
     text-align: center;
     margin-top: 0;
+}
+
+
+/* --------------MEDIA QUERIES-------------- */
+
+@media (min-width: 1000px) {
+
+    body {
+        height: 200vh;
+    }
+
+    .burger-nav {
+        display: none;
+    }
+
+    .header-nav {
+        display: block;
+        width: 60%;
+    }
+
+    .header-nav ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style-image: url(../img/pawprint\ 1\ \(1\).png);
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-size: 1.5rem;
+    }
+
+    .header-ul li {
+        margin: 0 20px;
+    }
+
+    .header-ofertas {
+        display: flex;
+        justify-content: space-between;
+        background-color: #000;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-size: 1rem;
+        align-items: center;
+        height: 2.5vh;
+    }
+
+    .header-ofertas p {
+        margin-left: 3%;
+    }
+
+    .header-ofertas nav {
+        width: 12%;
+    }
+
+    .header-ofertas nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin-right: 60%;
+        gap: 20px;
+    }
+
+    .p1 {
+        margin-right: 4%;
+    }
+
+    .p2 {
+        margin-right: 7%;
+    }
+
+    .section-articles {
+        flex-direction: row;
+        justify-content: center;
+        gap: 3%;
+    }
+
+    .footer-section-suscripción {
+        background-color: #F0A83E;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 8vh;
+    }
+
+    .footer-suscripción {
+        font-size: 1.5rem;
+    }
+
+    .footer-suscripción-mail span {
+        margin-left: 2%;
+        border-radius: 25px;
+        height: 60px;
+        width: 450px;
+        font-size: 1rem;
+    }
+
+    .footer-suscripción-mail button {
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        width: 200px;
+        height: 55px;
+        margin-right: 10%;
+    }
+
+    .footer-section-datos {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-right: 5%;
+        order: 1;
+    }
+
+    .footer-logo-img {
+        width: 15vw;
+    }
+
+    .footer-iconos {
+        margin-left: 5%;
+    }
+
+
+
 }

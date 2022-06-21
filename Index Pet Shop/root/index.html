@@ -16,10 +16,32 @@
 
     <header>
 
-        <section class="header-nav">
+       <section class="header-ofertas">
+
+        <p>Grandes ofertas en Comederos</p>
+
+        <nav>
+            <ul>
+                <li>Español</li>
+                <li>ARG$</li>
+            </ul>
+        </nav>
+
+
+       </section>
+
+        <section class="header-burger-nav">
 
             <img src="../root/img/Logo.png" alt="Logo">
-            <img src="../root/img/menu-icon 1.png" alt="Burger-ícono">
+            <img src="../root/img/menu-icon 1.png" alt="Burger-ícono" class="burger-nav">
+            <nav class="header-nav">
+                <ul class="header-ul">
+                    <li>Categorías</li>
+                    <li>Pets</li>
+                    <li>Nosotros</li>
+                    <li>Contactanos</li>
+                </ul>
+            </nav>
 
         </section>
 
@@ -92,15 +114,15 @@
                 <ul class="ul-contacto">
                     <li>
                         <label for="usuario">Nombre y Apellido</label>
-                        <input type="text" name="usuario" id="usuario">
+                        <input type="text" name="usuario" id="usuario" class="contáctanos-input">
                     </li>
                     <li>
                         <label for="email">Ingresá tu correo electrónico</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" class="contáctanos-input">
                     </li>
                     <li>
                         <label for="teléfono">Teléfono</label>
-                        <input type="tel" name="teléfono" id="teléfono">
+                        <input type="tel" name="teléfono" id="teléfono" class="contáctanos-input">
                     </li>
                 </ul>
             </form>
@@ -120,43 +142,52 @@
     <footer>
 
 
-        <section>
+        <section class="footer-section-suscripción">
 
-            <p class="footer-suscripción">
+            <div class="footer-suscripción">
                 <img src="../root/img/enviar-correo 1.png" alt="cartita">
                 <span>Suscríbete para más novedades</span>
-            </p>
+            </div>
 
-            <p class="footer-suscripción-mail">
+            <div class="footer-suscripción-mail">
                 <span>
                     <label for="email">Ingresá tu correo electrónico</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" class="footer-input">
                 </span>
                 <button type="reset">Suscribirme</button>
 
-            </p>
+            </div>
 
         </section>
 
 
         <section class="footer-section-datos">
 
-            <div class="footer-logo"><img src="../root/img/Logo (1).png" alt="Logo"></div>
+            <div class="footer-logo"><img src="../root/img/Logo (1).png" alt="Logo" class="footer-logo-img"></div>
 
             <div class="footer-iconos">
                 <article class="footer-article">
                     <img src="../root/img/Icono.png" alt="Icono">
-                    <div><p class="footer-datos">Localidad</p><p class="footer-datos-1">Calle - Provincia</p></div>
+                    <div>
+                        <p class="footer-datos">Localidad</p>
+                        <p class="footer-datos-1">Calle - Provincia</p>
+                    </div>
                 </article>
 
                 <article class="footer-article">
                     <img src="../root/img/Icono (2).png" alt="icono">
-                    <div><p class="footer-datos">Número de teléfono</p><p class="footer-datos-1">15-111-111-111</p></div>
+                    <div>
+                        <p class="footer-datos">Número de teléfono</p>
+                        <p class="footer-datos-1">15-111-111-111</p>
+                    </div>
                 </article>
 
                 <article class="footer-article">
                     <img src="../root/img/Icono (1).png" alt="icono">
-                    <div><p class="footer-datos">Correo electrónico</p><p class="footer-datos-1">Dirección de correo</p></div>
+                    <div>
+                        <p class="footer-datos">Correo electrónico</p>
+                        <p class="footer-datos-1">Dirección de correo</p>
+                    </div>
                 </article>
             </div>
 
